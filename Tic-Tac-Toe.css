@@ -1,0 +1,222 @@
+body {
+    font-family: Arial;
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.game {
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+
+span {
+    color: transparent;
+}
+
+.block {
+    height: 45px;
+    padding-top: 15px;
+    text-align: center;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: center;
+    font-size: 23px;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.first {
+    display: inline-block;
+}
+
+.second {
+    margin-left: -7px;
+    display: inline-block;
+}
+
+.third {
+    margin-left: -5px;
+    display: inline-block;
+}
+
+.b1,
+.b2 {
+    border-left: none;
+    border-top: none;
+}
+
+.b3 {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.b4,
+.b5 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.b6 {
+    border: none;
+}
+
+.b7,
+.b8 {
+    border-right: none;
+    border-top: none;
+}
+
+.b9 {
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+label {
+    font-size: 20px;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.p1,
+.p2 {
+    background: rgb(0, 228, 0);
+    display: inline-block;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.trophy {
+    height: 20px;
+}
+
+.message {
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.later {
+    font-size: 23px;
+    color: white;
+}
+
+.second-thought {
+    font-size: 23px;
+    color: white;
+    margin-top: 10px;
+}
+
+.yes-button,
+.no-button {
+    padding: 8px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+
+.score {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    display: inline-block;
+}
+
+.score-label {
+    background-color: lightblue;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.players {
+    margin-top: 20px;
+    background-color: rgb(255, 214, 220);
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+    width: 106px;
+    padding: 5px;
+} 
+
+.player1,
+.player2 {
+    font-size: 12px;
+    color: rgb(53, 53, 53);
+}
+
+.x,.o {
+    color: rgb(53, 53, 53);
+    font-size: 13px;
+    padding-top: 200px;
+    font-weight: bold;
+}
+
+.p1-wins,
+.p2-wins {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+}
+
+.reset-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: green;
+    border: none;
+    color: white;
+    margin-top: 5px;
+    margin-left: 64px;
+    cursor: pointer;
+    transition: padding 0.15s;
+}
+
+.reset-button:hover {
+    background-color: rgb(1, 155, 1);
+    padding: 6px 11px;
+}
+
+.reset-button:active {
+    background-color: rgb(0, 78, 0);
+    opacity: 0;
+}
